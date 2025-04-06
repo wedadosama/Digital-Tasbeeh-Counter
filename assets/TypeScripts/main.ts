@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const counterDisplay = document.getElementById("counter") as HTMLElement;
 
   btnCounter.addEventListener("click", function () {
-    counterDisplay.innerText = (counter++).toString();
+    counterDisplay.innerText = (++counter).toString();
   });
 
   btnReset.addEventListener("click", function () {
